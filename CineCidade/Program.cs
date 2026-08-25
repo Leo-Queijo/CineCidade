@@ -31,7 +31,7 @@
             Console.WriteLine();
             Console.WriteLine("===== RESUMO DA COMPRA =====");
 
-            Console.WriteLine($"Cliente: {ingresso.nomeCliente.ToUpper()}");
+            Console.WriteLine($"Cliente: {ingresso.nomeCliente}");
             Console.WriteLine($"Valor bruto: R$ {ingresso.CalcularValorBruto():F2}");
             Console.WriteLine($"Valor final: R$ {ingresso.CalcularValorFinal():F2}");
             Console.WriteLine($"Elegível para Sessão Noturna: {ingresso.ElegivelSessaoNoturna()}");
