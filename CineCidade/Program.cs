@@ -35,6 +35,8 @@
             Console.WriteLine($"Valor bruto: R$ {ingresso.CalcularValorBruto():F2}");
             Console.WriteLine($"Valor final: R$ {ingresso.CalcularValorFinal():F2}");
             Console.WriteLine($"Elegível para Sessão Noturna: {ingresso.ElegivelSessaoNoturna()}");
+            Console.WriteLine($"Desconto: R$ {ingresso.CalcularDesconto():F2}");
+
         }
     }
 }
