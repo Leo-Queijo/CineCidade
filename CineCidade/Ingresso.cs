@@ -14,7 +14,7 @@
 
         public double CalcularDesconto()
         {
-            if (cupom.ToUpper() == "CINEMA10")
+            if (cupom == "CINEMA10")
             {
                 return CalcularValorBruto() * 0.10;
             }
